@@ -1,0 +1,29 @@
+name: hassio_api
+version: 1.0.0+1
+publish_to: none
+description: Home Assistant APIs
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.1
+  retrofit:
+    path: ../retrofit.dart/annotation
+  json_annotation: ^4.3.0
+  web_socket_channel: ^2.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.0.1
+  retrofit_generator:
+    path: ../retrofit.dart/generator
+  build_runner: any
+
+flutter:
+  uses-material-design: true
+
