@@ -9,7 +9,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   dio: ^4.0.1
   retrofit:
-    path: ../retrofit.dart/annotation
+#    path: ../retrofit.dart/annotation
+    git:
+      url: git://github.com/timtimmahh/retrofit.dart
+      path: annotation
   json_annotation: ^4.3.0
   web_socket_channel: ^2.1.0
   flutter:
@@ -21,7 +24,10 @@ dev_dependencies:
     sdk: flutter
   json_serializable: ^6.0.1
   retrofit_generator:
-    path: ../retrofit.dart/generator
+    #    path: ../retrofit.dart/generator
+    git:
+      url: git://github.com/timtimmahh/retrofit.dart
+      path: generator
   build_runner: any
 
 flutter:
