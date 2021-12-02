@@ -1,7 +1,7 @@
 name: hassio_api
 version: 1.0.0+1
 publish_to: none
-description: Home Assistant APIs
+description: Home Assistant APIs for Flutter.
 environment:
   sdk: '>=2.13.0 <3.0.0'
 
