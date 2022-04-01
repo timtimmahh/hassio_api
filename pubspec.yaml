@@ -6,27 +6,27 @@ environment:
   sdk: '>=2.13.0 <3.0.0'
 
 dependencies:
-  cupertino_icons: ^1.0.2
-  dio: ^4.0.1
+  cupertino_icons: ^1.0.4
+  dio: ^4.0.6
   retrofit:
 #    path: ../retrofit.dart/annotation
     git:
-      url: git://github.com/timtimmahh/retrofit.dart
+      url: git@github.com:timtimmahh/retrofit.dart.git
       path: annotation
-  json_annotation: ^4.3.0
+  json_annotation: ^4.4.0
   web_socket_channel: ^2.1.0
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  flutter_lints: ^1.0.0
+  flutter_lints: ^1.0.4
   flutter_test:
     sdk: flutter
-  json_serializable: ^6.0.1
+  json_serializable: ^6.1.5
   retrofit_generator:
     #    path: ../retrofit.dart/generator
     git:
-      url: git://github.com/timtimmahh/retrofit.dart
+      url: git@github.com:timtimmahh/retrofit.dart.git
       path: generator
   build_runner: any
 
